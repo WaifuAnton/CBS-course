@@ -38,4 +38,10 @@ public class Animal implements Serializable {
     public void setAge(int age) {
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        String str = species + ", age - " + age + ", weight - " + weight;
+        return str;
+    }
 }
