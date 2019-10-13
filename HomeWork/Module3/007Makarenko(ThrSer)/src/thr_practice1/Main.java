@@ -1,4 +1,4 @@
-package thr_hw;
+package thr_practice1;
 
 public class Main {
     public static void main(String[] args) {
