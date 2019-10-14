@@ -2,9 +2,10 @@ package thr_hw1.task3;
 
 public class Main {
     public static void main(String[] args) {
-        PriorityThread min = new PriorityThread();
-        PriorityThread norm = new PriorityThread();
-        PriorityThread max = new PriorityThread();
+        int i = 0;
+        PriorityThread min = new PriorityThread(i);
+        PriorityThread max = new PriorityThread(min.getLimit());
+        PriorityThread norm = new PriorityThread(max.getLimit());
         min.setPriority(Thread.MIN_PRIORITY);
         max.setPriority(Thread.MAX_PRIORITY);
         norm.setPriority(Thread.NORM_PRIORITY);
