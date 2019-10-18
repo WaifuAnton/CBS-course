@@ -1,6 +1,7 @@
 package essential.pojo;
 
 import essential.BattleField;
+import essential.interfaces.Destroyable;
 import essential.interfaces.Drawable;
 
 import java.awt.*;
@@ -8,12 +9,13 @@ import java.awt.*;
 /**
  * Created by Asus on 21.09.2019.
  */
-public class Tank implements Drawable {
+public class Tank implements Drawable, Destroyable {
 
   private int speed = 10;
   private Direction direction = Direction.UP;
   private int x = 448;
   private int y = 512;
+  private boolean destroyed;
   private Bullet bullet = new Bullet();
   private BattleField bf;
 
@@ -99,8 +101,30 @@ public class Tank implements Drawable {
         }
     }
 
-    public void kill(Tank tank) {
-
+    public void kill(Tank tank) throws Exception {
+        while (getX() < tank.getX() && !tank.isDestroyed()) {
+            move(Direction.RIGHT);
+            fire();
+        }
+        while (getX() > tank.getX() && !tank.isDestroyed()) {
+            move(Direction.LEFT);
+            fire();
+        }
+        if (getX() == tank.getX()) {
+            if (getY() < tank.getY())
+                turn(Direction.DOWN);
+            else
+                turn(Direction.UP);
+            //fire();
+        }
+        else if (getY() == tank.getY()) {
+            if (getX() < tank.getX())
+                turn(Direction.RIGHT);
+            else
+                turn(Direction.LEFT);
+            //fire();
+        }
+        //fire();
     }
 
     public void fire() throws Exception {
@@ -142,20 +166,36 @@ public class Tank implements Drawable {
 
     @Override
     public void draw(Graphics g) {
-        g.setColor(new Color(255, 0, 0));
-        g.fillRect(x, y, 64, 64);
+        if (!destroyed) {
+            g.setColor(new Color(255, 0, 0));
+            g.fillRect(x, y, 64, 64);
 
-        g.setColor(new Color(0, 255, 0));
-        if (direction == Direction.UP) {
-            g.fillRect(x + 20, y, 24, 34);
-        } else if (direction == Direction.DOWN) {
-            g.fillRect(x + 20, y + 30, 24, 34);
-        } else if (direction == Direction.LEFT) {
-            g.fillRect(x, y + 20, 34, 24);
-        } else {
-            g.fillRect(x + 30, y + 20, 34, 24);
+            g.setColor(new Color(0, 255, 0));
+            if (direction == Direction.UP) {
+                g.fillRect(x + 20, y, 24, 34);
+            } else if (direction == Direction.DOWN) {
+                g.fillRect(x + 20, y + 30, 24, 34);
+            } else if (direction == Direction.LEFT) {
+                g.fillRect(x, y + 20, 34, 24);
+            } else {
+                g.fillRect(x + 30, y + 20, 34, 24);
+            }
         }
+//        else {
+//            g.setColor(new Color(180, 180, 180));
+//            g.fillRect(getX(), getY(), 64, 64);
+//        }
 
         bullet.draw(g);
+    }
+
+    @Override
+    public void destroy() {
+        destroyed = true;
+    }
+
+    @Override
+    public boolean isDestroyed() {
+        return destroyed;
     }
 }

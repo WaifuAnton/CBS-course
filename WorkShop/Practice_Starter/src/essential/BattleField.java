@@ -34,17 +34,18 @@ public class BattleField extends JPanel {
      */
     void runTheGame() throws Exception {
 
-       // tank.kill(tank2);
+        tank.kill(tank2);
 
-        for (int i = 0; i < 6; i++) {
-            tank.turn(Direction.LEFT);
+        for (int i = 0; i < 100; i++) {
+
             tank.fire();
         }
 
 
-        for (int i = 0; i < 10; i++) {
-            tank.move(Direction.LEFT);
-        }
+//        for (int i = 0; i < 10; i++) {
+////            tank.kill(tank2);
+//            tank.move(Direction.LEFT);
+//        }
 
 
 
@@ -64,6 +65,10 @@ public class BattleField extends JPanel {
                     && !((Brick)battleField[y][x]).isDestroyed()) {
                 Brick brick = (Brick) battleField[y][x];
                 brick.destroy();
+                return true;
+            }
+            else if (x == tank2.getX()/64 && y == tank2.getY()/64) {
+                tank2.destroy();
                 return true;
             }
         }
@@ -108,6 +113,8 @@ public class BattleField extends JPanel {
         frame.setVisible(true);
         tank = new Tank(this);
         tank2 = new Tank(this);
+        tank2.setX(256);
+        tank2.setY(256);
     }
 
     @Override
@@ -129,7 +136,7 @@ public class BattleField extends JPanel {
         }
 
         tank.draw(g);
-
+        tank2.draw(g);
     }
 
 }
