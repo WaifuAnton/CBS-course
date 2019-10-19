@@ -6,6 +6,7 @@ import java.io.ObjectInput;
 import java.io.ObjectOutput;
 
 public class Car implements Externalizable {
+    private static final long serialVersionUID = 4L;
     private transient String model = "Peugeot";
     private double price = 4000;
     private double weight = 1500;
