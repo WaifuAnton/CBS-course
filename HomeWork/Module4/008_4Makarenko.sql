@@ -9,10 +9,10 @@ BEGIN
 	START TRANSACTION;
     INSERT INTO employees(name, phone, second_phone)
     VALUES (new_n, new_ph, new_s_ph);
-    IF EXISTS (SELECT phone FROM employees WHERE phone = new_ph AND name != new_n) THEN
+    IF EXISTS (SELECT phone FROM employees WHERE phone = new_ph) THEN
 		ROLLBACK;
 	END IF;
-    IF EXISTS (SELECT second_phone FROM employees WHERE second_phone = s_ph AND name != new_n) THEN
+    IF EXISTS (SELECT second_phone FROM employees WHERE second_phone = new_s_ph) THEN
 		ROLLBACK;
 	END IF;
     COMMIT;

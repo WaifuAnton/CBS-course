@@ -31,4 +31,4 @@ BEGIN
     DELETE FROM info WHERE info.id_employee = OLD.id;
 END|
 
-DELETE FROM employees WHERE id = 9;
+DELETE FROM employees WHERE id = 12;
