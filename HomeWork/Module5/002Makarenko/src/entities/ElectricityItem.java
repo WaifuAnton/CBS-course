@@ -2,10 +2,17 @@ package entities;
 
 public class ElectricityItem implements Comparable<ElectricityItem> {
     private boolean turnedOn = false;
-    private int power;
+    private int power = 0;
+    private int id = 0;
+    protected String name = "unknown";
 
     public ElectricityItem(int power) {
         this.power = power;
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public void turnOn() {
@@ -22,6 +29,14 @@ public class ElectricityItem implements Comparable<ElectricityItem> {
 
     public int getPower() {
         return power;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     @Override

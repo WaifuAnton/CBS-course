@@ -3,8 +3,9 @@ package entities;
 public class Conditioner extends ElectricityItem {
     private int minTemperature, maxTemperature;
 
-    public Conditioner(int power, int minTemperature, int maxTemperature) {
+    public Conditioner(String name, int power, int minTemperature, int maxTemperature) {
         super(power);
+        super.name = name;
         this.maxTemperature = maxTemperature;
         this.minTemperature = minTemperature;
     }
