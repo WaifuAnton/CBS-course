@@ -43,7 +43,7 @@ public class ConditionerDB implements DAO {
         try {
             statement = connection.prepareStatement("DELETE FROM conditioners WHERE conditioners.id = ?");
             statement.setInt(1, id);
-            ResultSet resultSet = statement.executeQuery();
+            statement.execute();
 
             System.out.println("Conditioner " + id + " has been deleted");
         }
@@ -71,7 +71,7 @@ public class ConditionerDB implements DAO {
                 String name = resultSet.getString("name");
                 int minTemperature = resultSet.getInt("minTemperature");
                 int maxTemperature = resultSet.getInt("maxTemperature");
-                boolean turnedOn = resultSet.getInt("turnedOn") == 1 ? true : false;
+                boolean turnedOn = resultSet.getInt("turnedOn") == 1;
 
                 item = new Conditioner(name, power, minTemperature, maxTemperature);
                 if (turnedOn)
