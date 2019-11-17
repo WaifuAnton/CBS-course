@@ -17,15 +17,13 @@ public class ConditionerDB implements DAO {
         try {
             statement = connection.prepareStatement("INSERT INTO conditioners VALUES (default, ?, ?, ?, ?, ?)");
 
-            statement.setString(1, item.getName());
-            statement.setInt(2, item.getPower());
-            statement.setInt(3, ((Conditioner) item).getMinTemperature());
-            statement.setInt(4, ((Conditioner) item).getMaxTemperature());
-            statement.setInt(5, item.isTurnedOn() ? 1 : 0);
+            statement.setString(1, conditioner.getName());
+            statement.setInt(2, conditioner.getPower());
+            statement.setInt(3, conditioner.getMinTemperature());
+            statement.setInt(4, conditioner.getMaxTemperature());
+            statement.setInt(5, conditioner.isTurnedOn() ? 1 : 0);
 
             statement.execute();
-
-            System.out.println("values added");
         }
         catch (SQLException e) {
             e.printStackTrace();
@@ -59,7 +57,7 @@ public class ConditionerDB implements DAO {
     public ElectricityItem getByID(int id) {
         Connection connection = getConnection();
         PreparedStatement statement = null;
-        Conditioner item = null;
+        Conditioner conditioner = null;
 
         try {
             statement = connection.prepareStatement("SELECT * FROM conditioners WHERE conditioners.id = ?");
@@ -73,11 +71,11 @@ public class ConditionerDB implements DAO {
                 int maxTemperature = resultSet.getInt("maxTemperature");
                 boolean turnedOn = resultSet.getInt("turnedOn") == 1;
 
-                item = new Conditioner(name, power, minTemperature, maxTemperature);
+                conditioner = new Conditioner(name, power, minTemperature, maxTemperature);
                 if (turnedOn)
-                    item.turnOn();
+                    conditioner.turnOn();
                 else
-                    item.turnOff();
+                    conditioner.turnOff();
             }
         }
         catch (SQLException e) {
@@ -86,7 +84,7 @@ public class ConditionerDB implements DAO {
         finally {
             closeConnection(connection, statement);
         }
-        return item;
+        return conditioner;
     }
 
     @Override
@@ -106,8 +104,13 @@ public class ConditionerDB implements DAO {
                 int maxTemperature = resultSet.getInt("maxTemperature");
                 boolean turnedOn = resultSet.getBoolean("turnedOn");
 
-                Conditioner item = new Conditioner(name, power, minTemperature, maxTemperature);
-                conditioners.add(item);
+                Conditioner conditioner = new Conditioner(name, power, minTemperature, maxTemperature);
+                if (turnedOn)
+                    conditioner.turnOn();
+                else
+                    conditioner.turnOff();
+
+                conditioners.add(conditioner);
             }
         }
         catch (SQLException e) {

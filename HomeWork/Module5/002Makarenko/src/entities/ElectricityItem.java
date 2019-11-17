@@ -8,7 +8,6 @@ public class ElectricityItem implements Comparable<ElectricityItem> {
 
     public ElectricityItem(int power) {
         this.power = power;
-        this.name = name;
     }
 
     public String getName() {

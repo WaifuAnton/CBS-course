@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="ElectricityItems@localhost" uuid="2e3f2e8a-e159-4806-a955-06b8b943985a">
+    <data-source source="LOCAL" name="electricityitems@localhost" uuid="184eff6a-b2a5-4b33-b7df-b0c639306d8e">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/ElectricityItems?useSSL=false</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/electricityitems</jdbc-url>
       <driver-properties>
+        <property name="requireSSL" value="FALSE" />
         <property name="serverTimezone" value="UTC" />
       </driver-properties>
     </data-source>
