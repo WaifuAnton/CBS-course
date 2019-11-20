@@ -48,5 +48,15 @@ public class Main {
         all.sort(ElectricityItem::compareTo);
         System.out.println("The most least device is " + all.get(0).getClass() + " " + all.get(0).getName());
         System.out.println("The most powerful device is " + all.get(all.size() - 1).getClass() + " " + all.get(all.size() - 1).getName());
+
+        int overallPower = 0;
+        for (ElectricityItem item : all) {
+            if (item.isTurnedOn())
+                overallPower += item.getPower();
+            if (overallPower >= 10) {
+                System.out.println("BOOM");
+                break;
+            }
+        }
     }
 }

@@ -3,28 +3,28 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Session;
 import org.hibernate.cfg.Configuration;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Animal[] animals = new Animal[3];
 
         for (int i = 0; i < 3; i++) {
             animals[i] = new Animal(i + 1);
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Species: ");
+            String species = scanner.nextLine();
+            System.out.println("Predator? ");
+            boolean isPredator = scanner.nextInt() == 0;
+            System.out.println("Region: ");
+            String region = scanner.next();
+            System.out.println("Weight: ");
+            int weight = scanner.nextInt();
+            animals[i].setSpecies(species);
+           animals[i].setPredator(isPredator);
+            animals[i].setRegion(region);
+            animals[i].setWeight(weight);
         }
-
-        animals[0].setName("bull");
-        animals[0].setPredator(false);
-        animals[0].setRegion("everywhere");
-        animals[0].setWeight(500);
-
-        animals[1].setName("crocodile");
-        animals[1].setPredator(true);
-        animals[1].setRegion("Africa");
-        animals[1].setWeight(550);
-
-        animals[2].setName("octopus");
-        animals[2].setPredator(false);
-        animals[2].setRegion("ocean");
-        animals[2].setWeight(4);
 
         SessionFactory factory = new Configuration().configure().buildSessionFactory();
 

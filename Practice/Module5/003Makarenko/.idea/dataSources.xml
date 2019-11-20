@@ -10,5 +10,15 @@
         <property name="serverTimezone" value="UTC" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="094206e4-72fa-4562-b0c0-f6bc48213327">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/makar/Desktop/Прога/Попочка/Java/CBS course/Practice/Module5/003Makarenko/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/nature?serverTimezone=UTC</jdbc-url>
+    </data-source>
   </component>
 </project>

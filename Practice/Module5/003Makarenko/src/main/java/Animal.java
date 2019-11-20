@@ -5,7 +5,7 @@ import javax.persistence.Id;
 public class Animal {
     @Id
     private int id;
-    private String name = "none";
+    private String species = "none";
     private boolean isPredator = false;
     private int weight = 0;
     private String region = "none";
@@ -24,12 +24,12 @@ public class Animal {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getSpecies() {
+        return species;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setSpecies(String species) {
+        this.species = species;
     }
 
     public boolean isPredator() {
