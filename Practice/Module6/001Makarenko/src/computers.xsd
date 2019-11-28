@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="devices" type="devicesType"/>
+
+  <xs:complexType name="typeType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="peripheral" use="optional"/>
+        <xs:attribute type="xs:string" name="consumes" use="optional"/>
+        <xs:attribute type="xs:string" name="has_cooler" use="optional"/>
+        <xs:attribute type="xs:string" name="group" use="optional"/>
+        <xs:attribute type="xs:string" name="ports" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="deviceType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="name"/>
+      <xs:element type="xs:string" name="origin"/>
+      <xs:element type="xs:string" name="price"/>
+      <xs:element type="typeType" name="type"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="devicesType">
+    <xs:sequence>
+      <xs:element type="deviceType" name="device" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
