@@ -1,3 +1,5 @@
+package sax;
+
 import entity.Device;
 import org.xml.sax.SAXException;
 import sax.DeviceHandler;

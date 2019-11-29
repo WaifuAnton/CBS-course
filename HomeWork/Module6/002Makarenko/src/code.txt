@@ -1,0 +1,24 @@
+            //xmlWriter.writeCharacters("\n\t\t");
+//            xmlWriter.writeStartElement("name");
+//            xmlWriter.writeCharacters("processor");
+//            xmlWriter.writeEndElement();
+
+//            //xmlWriter.writeCharacters("\n\t\t");
+//            xmlWriter.writeStartElement("origin");
+//            xmlWriter.writeCharacters("USA");
+//            xmlWriter.writeEndElement();
+//
+//            //xmlWriter.writeCharacters("\n\t\t");
+//            xmlWriter.writeStartElement("price");
+//            xmlWriter.writeCharacters("499.99");
+//            xmlWriter.writeEndElement();
+//
+//            //xmlWriter.writeCharacters("\n\t\t");
+//            xmlWriter.writeStartElement("type");
+//            xmlWriter.writeAttribute("power", "80");
+//            xmlWriter.writeAttribute("has_cooler", "true");
+//            xmlWriter.writeAttribute("group", "multimedia");
+//            xmlWriter.writeAttribute("group", "multimedia");
+//            xmlWriter.writeAttribute("ports", "socket");
+//            xmlWriter.writeCharacters("main");
+//            xmlWriter.writeEndElement();

@@ -3,7 +3,7 @@ package entity;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Device {
+public class Device implements Comparable<Device> {
     private String name;
     private Type type;
     private String origin;
@@ -81,5 +81,10 @@ public class Device {
     public String toString() {
         return name + "; " + type + "; " + origin + "; " + price + "USD; " + group + "; " + power + "W; " +
                 (hasCooler ? "has a cooler; " : "doesn't have a cooler; ") + "ports: " + ports.toString();
+    }
+
+    @Override
+    public int compareTo(Device o) {
+        return power - o.power;
     }
 }
