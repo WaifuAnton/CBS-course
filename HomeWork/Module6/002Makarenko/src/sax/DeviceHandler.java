@@ -1,4 +1,4 @@
-package xml;
+package sax;
 
 import entity.Device;
 import entity.Group;

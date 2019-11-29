@@ -1,6 +1,6 @@
 import entity.Device;
 import org.xml.sax.SAXException;
-import xml.DeviceHandler;
+import sax.DeviceHandler;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
