@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><devices>
+<?xml version="1.0" encoding="UTF-8" ?>
+<devices>
     <device>
         <name>screen</name>
         <origin>China</origin>
         <price>299.99</price>
-        <type group="io" has_cooler="false" ports="usb, hdmi, vga" power="12">peripheral</type>
+        <type power="12" has_cooler="false" group ="io" ports="usb, hdmi, vga">peripheral</type>
     </device>
     <device>
         <name>keyboard</name>
         <origin>Taiwan</origin>
         <price>59.90</price>
-        <type group="io" has_cooler="false" ports="usb" power="3">peripheral</type>
+        <type power="3" has_cooler="false" group ="io" ports="usb">peripheral</type>
     </device>
 </devices>
