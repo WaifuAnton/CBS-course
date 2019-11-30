@@ -12,7 +12,7 @@ public class Main {
                 int index = line.lastIndexOf('/');
                 if (index >= 0)
                     line = line.substring(0, index + 1);
-                if (Pattern.matches("^< |\t*.+/$", line)) {
+                if (Pattern.matches("^<|\\s*.+/$", line)) {
                     int index1 = line.indexOf('>');
                     int index2 = line.lastIndexOf('<');
                     System.out.println(line.substring(index1 + 1, index2));
