@@ -3,7 +3,6 @@ package stax;
 import javax.xml.stream.XMLOutputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -20,6 +19,10 @@ public class MainWrite {
             xmlWriter.writeEndElement();
 
             xmlWriter.writeEndDocument();
+
+            xmlWriter.flush();
+
+            xmlWriter.close();
         }
         catch (IOException e) {
             System.out.println(e.getMessage());
