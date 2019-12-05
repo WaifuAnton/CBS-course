@@ -9,7 +9,7 @@ public class RicardoServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         PrintWriter writer = resp.getWriter();
-        String html = "<html><head><title>Ricardo></title><body><img src='giphy.gif'/></body></html>";
+        String html = "<html><head><title>Ricardo</title><body><img src='giphy.gif'/></body></html>";
         writer.println(html);
     }
 }
