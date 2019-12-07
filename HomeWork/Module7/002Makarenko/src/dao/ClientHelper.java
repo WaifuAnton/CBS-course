@@ -2,9 +2,12 @@ package dao;
 
 import entity.Client;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class ClientHelper implements ClientDAO {
     @Override
@@ -40,14 +43,34 @@ public class ClientHelper implements ClientDAO {
         PreparedStatement preparedStatement = null;
 
         try {
+            byte[] array = new byte[32];
+            new Random().nextBytes(array);
+            String seed = new String(array);
+
+            MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");
+            messageDigest.reset();
+            String beforeHash = client.getPassword() + seed;
+            byte[] hash = messageDigest.digest(beforeHash.getBytes());
+
             preparedStatement = connection.prepareStatement("INSERT INTO clients(name, age, phone, auth_string) VALUES (?, ?, ?, ?)");
             preparedStatement.setString(1, client.getName());
             preparedStatement.setInt(2, client.getAge());
             preparedStatement.setString(3, client.getPhone());
-            preparedStatement.setString(4, client.getPassword());
+            preparedStatement.setString(4, new String(hash));
+            preparedStatement.execute();
+
+            preparedStatement = connection.prepareStatement("SELECT MAX(id) AS id FROM clients");
+            preparedStatement.execute();
+            ResultSet resultSet = preparedStatement.getResultSet();
+            resultSet.next();
+            long id = resultSet.getLong("id");
+
+            preparedStatement = connection.prepareStatement("INSERT INTO seed(id, seed) VALUES (?, ?)");
+            preparedStatement.setInt(1, (int) id);
+            preparedStatement.setString(2, seed);
             preparedStatement.execute();
         }
-        catch (SQLException e) {
+        catch (SQLException | NoSuchAlgorithmException e) {
             System.out.println(e.getCause());
         }
         finally {
