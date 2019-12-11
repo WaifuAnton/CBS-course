@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="003Makarenko" />
+        <module name="003_1Makarenko" />
       </profile>
     </annotationProcessing>
   </component>
