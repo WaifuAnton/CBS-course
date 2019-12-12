@@ -4,7 +4,7 @@ import entity.Conditioner;
 
 import java.util.List;
 
-public class ConditionerHelper implements Helper<Conditioner> {
+public class ConditionerHelper extends Helper<Conditioner> {
     @Override
     public List<Conditioner> getAll() {
         return null;

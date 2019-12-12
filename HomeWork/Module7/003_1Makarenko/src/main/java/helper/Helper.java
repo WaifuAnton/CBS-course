@@ -1,15 +1,21 @@
 package helper;
 
-import entity.ElectricityItem;
+import org.hibernate.SessionFactory;
 
 import java.util.List;
 
-public interface Helper <E> {
-    List<E> getAll();
+public abstract class Helper<E> {
+    protected SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
 
-    E getById(long id);
+    public abstract List<E> getAll();
 
-    void add(E element);
+    public abstract E getById(long id);
 
-    void update(long id, E element);
+    public abstract void add(E element);
+
+    public abstract void update(long id, E element);
+
+    public SessionFactory getSessionFactory() {
+        return sessionFactory;
+    }
 }

@@ -4,7 +4,7 @@ import entity.Kettle;
 
 import java.util.List;
 
-public class KettleHelper implements Helper<Kettle> {
+public class KettleHelper extends Helper<Kettle> {
     @Override
     public List<Kettle> getAll() {
         return null;
