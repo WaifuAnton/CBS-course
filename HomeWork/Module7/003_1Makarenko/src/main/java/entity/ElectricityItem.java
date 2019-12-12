@@ -3,7 +3,7 @@ package entity;
 public class ElectricityItem implements Comparable<ElectricityItem> {
     private boolean turnedOn = false;
     private int power = 0;
-    private int id = 0;
+    private long id = 0;
     protected String name = "unknown";
 
     public ElectricityItem(int power) {
@@ -30,11 +30,11 @@ public class ElectricityItem implements Comparable<ElectricityItem> {
         return power;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
