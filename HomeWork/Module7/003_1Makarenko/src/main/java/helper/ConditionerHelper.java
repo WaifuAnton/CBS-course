@@ -5,7 +5,7 @@ import org.hibernate.Criteria;
 
 import java.util.List;
 
-public class ConditionerHelper extends Helper<Conditioner> {
+public class ConditionerHelper extends HelperItem<Conditioner> {
     @Override
     public List<Conditioner> getAll() {
         session = sessionFactory.openSession();

@@ -6,7 +6,8 @@ import javax.servlet.http.HttpServletRequest;
 
 public class MainCommand implements Command {
     @Override
-    public void execute(HttpServletRequest req) {
+    public String execute(HttpServletRequest req) {
 
+        return null;
     }
 }

@@ -5,7 +5,7 @@ import org.hibernate.Criteria;
 
 import java.util.List;
 
-public class ElectricityItemHelper extends Helper<ElectricityItem> {
+public class ElectricityItemHelper extends HelperItem<ElectricityItem> {
     @Override
     public List<ElectricityItem> getAll() {
         session = sessionFactory.openSession();

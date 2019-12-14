@@ -5,7 +5,7 @@ import org.hibernate.Criteria;
 
 import java.util.List;
 
-public class WashingMachineHelper extends Helper<WashingMachine> {
+public class WashingMachineHelper extends HelperItem<WashingMachine> {
     @Override
     public List<WashingMachine> getAll() {
         session = sessionFactory.openSession();

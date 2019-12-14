@@ -1,18 +1,19 @@
 package helper;
 
-import entity.Kettle;
 import entity.User;
 import org.hibernate.Criteria;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
-public class UserHelper extends Helper<User> {
+public class UserHelper extends HelperUser<User> {
     @Override
-    public List<User> getAll() {
+    public Set<User> getAll() {
         session = sessionFactory.openSession();
         Criteria criteria = session.createCriteria(User.class);
-        List<User> users = criteria.list();
-        session.close();
+        List<User> temp = criteria.list();
+        Set<User> users = new HashSet<>(temp);
         return users;
     }
 

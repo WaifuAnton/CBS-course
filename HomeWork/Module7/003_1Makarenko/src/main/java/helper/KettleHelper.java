@@ -5,7 +5,7 @@ import org.hibernate.Criteria;
 
 import java.util.List;
 
-public class KettleHelper extends Helper<Kettle> {
+public class KettleHelper extends HelperItem<Kettle> {
     @Override
     public List<Kettle> getAll() {
         session = sessionFactory.openSession();
