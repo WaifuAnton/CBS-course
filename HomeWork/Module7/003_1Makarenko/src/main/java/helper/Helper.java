@@ -1,11 +1,12 @@
 package helper;
 
+import entity.ElectricityItem;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
 import java.util.List;
 
-public abstract class Helper<E> {
+public abstract class Helper<E extends ElectricityItem> {
     protected SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
     protected Session session;
 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id = "sonyRadio" class="classes.SonyRadio"/>
+    <bean id = "michlenWheel" class="classes.MichlenWheel"/>
+    <bean id = "glassWindow" class="classes.GlassWindow"/>
+
+    <bean id="protectedWindow" class="classes.ProtectedWindow"/>
+    <bean id="dispatcherRadio" class="classes.DispatcherRadio"/>
+    <bean id="airWheel" class="classes.AirWheel"/>
+
+    <bean id="VolvoVehicle" class="classes.VolvoVehicle">
+        <constructor-arg ref="sonyRadio" index="1"/>
+        <constructor-arg ref="michlenWheel" index="2"/>
+        <constructor-arg ref="glassWindow" index="0"/>
+    </bean>
+
+    <bean id="PlaneVehicle" class="classes.PlaneVehicle">
+        <constructor-arg ref="dispatcherRadio" index="1"/>
+        <constructor-arg ref="airWheel" index="2"/>
+        <constructor-arg ref="protectedWindow" index="0"/>
+    </bean>
+</beans>

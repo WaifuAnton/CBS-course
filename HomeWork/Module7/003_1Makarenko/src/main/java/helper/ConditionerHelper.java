@@ -2,7 +2,6 @@ package helper;
 
 import entity.Conditioner;
 import org.hibernate.Criteria;
-import org.hibernate.Session;
 
 import java.util.List;
 

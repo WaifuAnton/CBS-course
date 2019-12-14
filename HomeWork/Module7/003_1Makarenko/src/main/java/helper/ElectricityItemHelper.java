@@ -1,7 +1,6 @@
 package helper;
 
 import entity.ElectricityItem;
-import entity.ElectricityItem;
 import org.hibernate.Criteria;
 
 import java.util.List;
