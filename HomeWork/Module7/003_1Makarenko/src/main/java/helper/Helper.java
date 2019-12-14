@@ -6,7 +6,7 @@ import org.hibernate.SessionFactory;
 
 import java.util.List;
 
-public abstract class Helper<E extends ElectricityItem> {
+public abstract class Helper<E> {
     protected SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
     protected Session session;
 
