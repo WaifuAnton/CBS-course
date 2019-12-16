@@ -4,10 +4,17 @@ import java.util.Objects;
 
 public class User implements Comparable<User> {
     private String login = "";
-    private int discountProgram = 0;
-    private double value = 1;
-    private double id = 0;
+    private int id = 0;
     private String auth_str = "";
+    private double balance = 0;
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
 
     public String getAuth_str() {
         return auth_str;
@@ -17,11 +24,11 @@ public class User implements Comparable<User> {
         this.auth_str = auth_str;
     }
 
-    public double getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(double id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -38,31 +45,6 @@ public class User implements Comparable<User> {
 
     public void setLogin(String login) {
         this.login = login;
-    }
-
-    public int getDiscountProgram() {
-        return discountProgram;
-    }
-
-    public double getValue() {
-        return value;
-    }
-
-    public void setDiscountProgram(int discountProgram) {
-        switch (discountProgram) {
-            case 1:
-                value = 0.95;
-                break;
-            case 2:
-                value = 0.9;
-                break;
-            case 3:
-                value = 0.8;
-                break;
-            default:
-                value = 1;
-        }
-        this.discountProgram = discountProgram;
     }
 
     @Override

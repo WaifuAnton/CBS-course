@@ -16,7 +16,7 @@ public class ConditionerHelper extends HelperItem<Conditioner> {
     }
 
     @Override
-    public Conditioner getById(long id) {
+    public Conditioner getById(int id) {
         session = sessionFactory.openSession();
         session.beginTransaction();
         Conditioner conditioner = session.get(Conditioner.class, id);
@@ -34,7 +34,7 @@ public class ConditionerHelper extends HelperItem<Conditioner> {
     }
 
     @Override
-    public void update(long id, Conditioner element) {
+    public void update(int id, Conditioner element) {
         session = sessionFactory.openSession();
         session.beginTransaction();
         Conditioner temp = session.get(Conditioner.class, id);

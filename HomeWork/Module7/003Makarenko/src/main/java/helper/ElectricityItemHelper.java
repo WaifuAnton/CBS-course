@@ -16,7 +16,7 @@ public class ElectricityItemHelper extends HelperItem<ElectricityItem> {
     }
 
     @Override
-    public ElectricityItem getById(long id) {
+    public ElectricityItem getById(int id) {
         session = sessionFactory.openSession();
         session.beginTransaction();
         ElectricityItem electricityItem = session.get(ElectricityItem.class, id);
@@ -34,7 +34,7 @@ public class ElectricityItemHelper extends HelperItem<ElectricityItem> {
     }
 
     @Override
-    public void update(long id, ElectricityItem element) {
+    public void update(int id, ElectricityItem element) {
         session = sessionFactory.openSession();
         session.beginTransaction();
         ElectricityItem temp = session.get(ElectricityItem.class, id);

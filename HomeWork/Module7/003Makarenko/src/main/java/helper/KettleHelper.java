@@ -16,7 +16,7 @@ public class KettleHelper extends HelperItem<Kettle> {
     }
 
     @Override
-    public Kettle getById(long id) {
+    public Kettle getById(int id) {
         session = sessionFactory.openSession();
         session.beginTransaction();
         Kettle kettle = session.get(Kettle.class, id);
@@ -34,7 +34,7 @@ public class KettleHelper extends HelperItem<Kettle> {
     }
 
     @Override
-    public void update(long id, Kettle element) {
+    public void update(int id, Kettle element) {
         session = sessionFactory.openSession();
         session.beginTransaction();
         Kettle temp = session.get(Kettle.class, id);

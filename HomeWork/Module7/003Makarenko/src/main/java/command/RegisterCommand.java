@@ -1,11 +1,15 @@
 package command;
 
+import entity.Salt;
 import entity.User;
+import helper.MeshPassword;
+import helper.SaltHelper;
 import helper.UserHelper;
 import interfaces.Command;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import java.util.Random;
 import java.util.Set;
 
 public class RegisterCommand implements Command {
@@ -21,6 +25,12 @@ public class RegisterCommand implements Command {
         {
             created = true;
             userHelper.add(user);
+            byte[] saltB = new byte[32];
+            new Random().nextBytes(saltB);
+            String hash = MeshPassword.mesh(password, saltB);
+            SaltHelper saltHelper = new SaltHelper();
+            int id = userHelper.getByLogin(user.getLogin()).getId();
+            Salt salt = new Salt(id, new String(saltB));
             HttpSession session = req.getSession();
             session.setAttribute("user", user);
         }

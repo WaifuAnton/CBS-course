@@ -16,7 +16,7 @@ public class WashingMachineHelper extends HelperItem<WashingMachine> {
     }
 
     @Override
-    public WashingMachine getById(long id) {
+    public WashingMachine getById(int id) {
         session = sessionFactory.openSession();
         session.beginTransaction();
         WashingMachine washingMachine = session.get(WashingMachine.class, id);
@@ -34,7 +34,7 @@ public class WashingMachineHelper extends HelperItem<WashingMachine> {
     }
 
     @Override
-    public void update(long id, WashingMachine element) {
+    public void update(int id, WashingMachine element) {
         session = sessionFactory.openSession();
         session.beginTransaction();
         WashingMachine temp = session.get(WashingMachine.class, id);
