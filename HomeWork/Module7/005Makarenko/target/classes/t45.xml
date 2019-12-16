@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="SonyHand" class="t45.SonyHand"/>
+    <bean id="IBMHead" class="t45.IBMHead"/>
+    <bean id="BostonLeg" class="t45.BostonLeg"/>
+
+    <bean id="T1000Replacer" class="t45.T1000Replacer"/>
+
+    <bean id="T1000" class="t45.ModelT1000" c:leg-ref="BostonLeg" c:hand-ref="SonyHand" c:head-ref="IBMHead">
+        <replaced-method name="action" replacer="T1000Replacer"/>
+    </bean>
+</beans>
