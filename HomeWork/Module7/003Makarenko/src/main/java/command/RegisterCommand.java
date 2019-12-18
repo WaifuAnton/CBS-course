@@ -25,17 +25,18 @@ public class RegisterCommand implements Command {
         {
             created = true;
             userHelper.add(user);
-            byte[] saltB = new byte[32];
-            new Random().nextBytes(saltB);
-            String hash = MeshPassword.mesh(password, saltB);
+            byte[] bytes = new byte[32];
+            new Random().nextBytes(bytes);
+            String saltStr = new String(bytes);
+            String hash = MeshPassword.mesh(password, saltStr);
             SaltHelper saltHelper = new SaltHelper();
-            int id = userHelper.getByLogin(user.getLogin()).getId();
-            Salt salt = new Salt(id, new String(saltB));
+            int userId = userHelper.getByLogin(user.getLogin()).getId();
+            Salt salt = new Salt(userId, new String(saltStr));
             HttpSession session = req.getSession();
             session.setAttribute("user", user);
         }
         else
             req.setAttribute("notAdd", "User already exists");
-        return created ? "main.jsp" : "register.jsp";
+        return created ? "controller?action=main" : "register.jsp";
     }
 }

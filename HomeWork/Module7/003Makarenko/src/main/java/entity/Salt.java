@@ -1,6 +1,7 @@
 package entity;
 
 public class Salt {
+    private int id;
     private int user;
     private String value;
 

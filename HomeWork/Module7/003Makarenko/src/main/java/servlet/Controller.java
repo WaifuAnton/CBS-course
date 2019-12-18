@@ -1,5 +1,8 @@
 package servlet;
 
+import command.CommandFactory;
+import interfaces.Command;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -19,8 +22,10 @@ public class Controller extends HttpServlet {
     }
 
     private void processQuery(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String argument = req.getParameter("task");
-        RequestDispatcher dispatcher = req.getRequestDispatcher("index.jsp");
+        CommandFactory commandFactory = CommandFactory.getInstance();
+        Command command = commandFactory.getCommand(req);
+        String page = command.execute(req);
+        RequestDispatcher dispatcher = req.getRequestDispatcher(page);
         dispatcher.forward(req, resp);
     }
 }
