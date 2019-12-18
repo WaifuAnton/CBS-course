@@ -14,6 +14,7 @@ public class CommandFactory {
         commands = new HashMap<>();
         commands.put("register", new RegisterCommand());
         commands.put("login", new LoginCommand());
+        commands.put("main", new MainCommand());
     }
 
     public static CommandFactory getInstance() {

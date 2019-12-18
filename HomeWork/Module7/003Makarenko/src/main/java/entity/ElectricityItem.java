@@ -7,6 +7,7 @@ public class ElectricityItem implements Comparable<ElectricityItem> {
     protected String name = "unknown";
     private double rentCost = 0;
     private double totalCost = 0;
+    private String type = getClass().getName();;
 
     public ElectricityItem(int power, double rentCost, double totalCost) {
         this.power = power;
@@ -65,5 +66,9 @@ public class ElectricityItem implements Comparable<ElectricityItem> {
     @Override
     public int compareTo(ElectricityItem o) {
         return power - o.power;
+    }
+
+    public String getType() {
+        return type;
     }
 }
