@@ -33,17 +33,18 @@
 
         <property name="show_sql">true</property>
 
-        <mapping class="entity.User" />
-
-        <mapping class="entity.Kettle" />
-
-        <mapping class="entity.Salt"/>
-
         <mapping class="entity.ElectricityItem"/>
+
+        <mapping class="entity.WashingMachine"/>
+
+        <mapping class="entity.Kettle"/>
 
         <mapping class="entity.Conditioner"/>
 
-        <mapping class="entity.WashingMachine"/>
+        <mapping class="entity.User"/>
+
+        <mapping class="entity.Salt"/>
+
     </session-factory>
 
 </hibernate-configuration>

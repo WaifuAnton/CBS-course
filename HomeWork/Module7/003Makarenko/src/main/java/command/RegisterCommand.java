@@ -25,13 +25,14 @@ public class RegisterCommand implements Command {
 
         if (!users.contains(user))
         {
-            created = true;
-            userHelper.add(user);
-
             byte[] bytes = new byte[32];
             new Random().nextBytes(bytes);
             String saltStr = new String(bytes);
             String hash = MeshPassword.mesh(password, saltStr);
+            user.setAuth_str(hash);
+
+            created = true;
+            userHelper.add(user);
 
             SaltHelper saltHelper = new SaltHelper();
             int userId = userHelper.getByLogin(user.getLogin()).getId();
