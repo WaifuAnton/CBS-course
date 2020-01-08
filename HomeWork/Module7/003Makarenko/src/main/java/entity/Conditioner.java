@@ -1,7 +1,12 @@
 package entity;
 
+import javax.persistence.Entity;
+
+@Entity(name = "conditioners")
 public class Conditioner extends ElectricityItem {
     private int minTemperature, maxTemperature;
+
+    public Conditioner() { }
 
     public Conditioner(String name, int power, int minTemperature, int maxTemperature, double rentConst, double totalCost) {
         super(power, rentConst, totalCost);

@@ -1,10 +1,14 @@
 package entity;
 
+import javax.persistence.*;
 import java.util.Objects;
 
+@Entity(name = "users")
 public class User implements Comparable<User> {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
     private String login = "";
-    private int id = 0;
     private String auth_str = "";
     private double balance = 0;
 

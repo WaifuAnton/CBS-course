@@ -1,13 +1,23 @@
 package entity;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity(name = "items")
 public class ElectricityItem implements Comparable<ElectricityItem> {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id = 0;
     private boolean inUse = false;
     private int power = 0;
-    private long id = 0;
     protected String name = "unknown";
     private double rentCost = 0;
     private double totalCost = 0;
     private String type = getClass().getName();;
+
+    public ElectricityItem() { }
 
     public ElectricityItem(int power, double rentCost, double totalCost) {
         this.power = power;

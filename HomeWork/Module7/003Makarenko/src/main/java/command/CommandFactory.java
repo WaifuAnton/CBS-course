@@ -25,6 +25,6 @@ public class CommandFactory {
 
     public Command getCommand(HttpServletRequest req) {
         String action = req.getParameter("action");
-        return commands.get("action");
+        return commands.get(action);
     }
 }

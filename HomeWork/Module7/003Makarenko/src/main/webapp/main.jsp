@@ -14,7 +14,7 @@
 <body>
     <jstl:choose>
         <jstl:when test="${not empty sessionScope.user}">
-            <p>${sessionScope.user.name}</p>
+            <p>${sessionScope.user.login}</p>
             <!--<p><a href="controller?action=">My bunch</a></p>-->
             <p><a href="controller?action=logout">Logout</a></p>
             <table>
