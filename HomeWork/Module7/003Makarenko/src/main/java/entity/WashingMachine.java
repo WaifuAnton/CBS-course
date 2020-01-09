@@ -9,7 +9,7 @@ public class WashingMachine extends ElectricityItem {
     public WashingMachine() { }
 
     public WashingMachine(String name, int power, int maxClothesWeight, double rentCost, double totalCost) {
-        super(power, rentCost, totalCost);
+        super(power, totalCost);
         super.name = name;
         this.maxClothesWeight = maxClothesWeight;
     }

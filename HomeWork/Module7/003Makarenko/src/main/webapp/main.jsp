@@ -15,7 +15,10 @@
     <jstl:choose>
         <jstl:when test="${not empty sessionScope.user}">
             <p>${sessionScope.user.login}</p>
+            <p>${sessionScope.user.balance}</p>
+            <p><a href="add_money.jsp">Add money</a></p>
             <p><a href="controller?action=logout">Logout</a></p>
+            <p>Choose your device</p>
             <table border="1">
                 <tr>
                     <td>Type</td>
@@ -38,6 +41,5 @@
             <p><a href="login.jsp">Login</a></p>
         </jstl:otherwise>
     </jstl:choose>
-    <p>Choose your device</p>
 </body>
 </html>

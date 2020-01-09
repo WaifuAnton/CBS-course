@@ -9,7 +9,7 @@ public class Conditioner extends ElectricityItem {
     public Conditioner() { }
 
     public Conditioner(String name, int power, int minTemperature, int maxTemperature, double rentConst, double totalCost) {
-        super(power, rentConst, totalCost);
+        super(power, totalCost);
         super.name = name;
         this.maxTemperature = maxTemperature;
         this.minTemperature = minTemperature;

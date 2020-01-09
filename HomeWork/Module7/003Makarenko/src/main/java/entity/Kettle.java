@@ -9,7 +9,7 @@ public class Kettle extends ElectricityItem {
     public Kettle() { }
 
     public Kettle(String name, int power, int liters, double rentCost, double totalCost) {
-        super(power, rentCost, totalCost);
+        super(power, totalCost);
         super.name = name;
         this.liters = liters;
     }

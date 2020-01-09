@@ -15,6 +15,8 @@ public class CommandFactory {
         commands.put("register", new RegisterCommand());
         commands.put("login", new LoginCommand());
         commands.put("main", new MainCommand());
+        commands.put("logout", new LogoutCommand());
+        commands.put("add_money", new AddMoneyCommand());
     }
 
     public static CommandFactory getInstance() {
