@@ -17,7 +17,7 @@
             <p>${sessionScope.user.login}</p>
             <!--<p><a href="controller?action=">My bunch</a></p>-->
             <p><a href="controller?action=logout">Logout</a></p>
-            <table>
+            <table border="1">
                 <tr>
                     <td>Type</td>
                     <td>Name</td>

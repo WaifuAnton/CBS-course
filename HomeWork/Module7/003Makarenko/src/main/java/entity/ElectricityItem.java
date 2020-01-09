@@ -11,15 +11,13 @@ public class ElectricityItem implements Comparable<ElectricityItem> {
     private boolean inUse = false;
     private int power = 0;
     protected String name = "unknown";
-    private double rentCost = 0;
     private double totalCost = 0;
     private String type = getClass().getName();;
 
     public ElectricityItem() { }
 
-    public ElectricityItem(int power, double rentCost, double totalCost) {
+    public ElectricityItem(int power, double totalCost) {
         this.power = power;
-        this.rentCost = rentCost;
         this.totalCost = totalCost;
     }
 
@@ -47,20 +45,12 @@ public class ElectricityItem implements Comparable<ElectricityItem> {
         this.id = id;
     }
 
-    public double getRentCost() {
-        return rentCost;
-    }
-
     public void setPower(int power) {
         this.power = power;
     }
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public void setRentCost(double rentCost) {
-        this.rentCost = rentCost;
     }
 
     public double getTotalCost() {

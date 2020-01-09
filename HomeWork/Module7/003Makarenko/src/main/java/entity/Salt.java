@@ -2,18 +2,27 @@ package entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import java.util.Objects;
 
 @Entity
 public class Salt {
     @Id
     private int id;
-    private int user;
+
     private String value;
 
     public Salt() { }
 
-    public Salt(int user, String value) {
-        this.user = user;
+    public Salt(int id, String value) {
+        this.id = id;
         this.value = value;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getValue() {
+        return value;
     }
 }

@@ -15,22 +15,21 @@
     <jstl:choose>
         <jstl:when test="${not empty sessionScope.user}">
             <p>${sessionScope.user.login}</p>
-            <!--<p><a href="controller?action=">My bunch</a></p>-->
             <p><a href="controller?action=logout">Logout</a></p>
-            <table>
+            <table border="1">
                 <tr>
                     <td>Type</td>
                     <td>Name</td>
-                    <td>Rent cost</td>
                     <td>Total cost</td>
                 </tr>
                 <jstl:forEach items="${requestScope.items}" var="item">
-                    <tr>
-                        <td>${item.type}</td>
-                        <td>${item.name}</td>
-                        <td>${item.rentCost}</td>
-                        <td>${item.totalCost}</td>
-                    </tr>
+                    <jstl:if test="${item.inUse == false}">
+                        <tr>
+                            <td>${item.type}</td>
+                            <td>${item.name}</td>
+                            <td>${item.totalCost}</td>
+                        </tr>
+                    </jstl:if>
                 </jstl:forEach>
             </table>
         </jstl:when>
