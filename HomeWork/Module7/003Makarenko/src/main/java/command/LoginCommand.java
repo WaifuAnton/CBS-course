@@ -34,6 +34,6 @@ public class LoginCommand implements Command {
         }
         else
             req.setAttribute("doesNotExist", "Can't find the user");
-        return exists ? "controller?action=main" : "login.jsp";
+        return exists && rightPassword ? "controller?action=main" : "login.jsp";
     }
 }

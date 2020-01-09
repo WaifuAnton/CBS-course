@@ -8,29 +8,24 @@ public class ElectricityItem implements Comparable<ElectricityItem> {
     @Id
     @GeneratedValue(strategy = GenerationType.TABLE)
     private long id = 0;
-    private boolean inUse = false;
     private int power = 0;
     protected String name = "unknown";
-    private double totalCost = 0;
-    private String type = getClass().getName();;
+    private double rentCost = 0;
+    private String type = getClass().getName();
+    private String usedBy = "none";
 
-    public ElectricityItem() { }
+    public ElectricityItem() {
+        type = type.substring(type.lastIndexOf('.') + 1);
+    }
 
-    public ElectricityItem(int power, double totalCost) {
+    public ElectricityItem(int power, double rentCost) {
         this.power = power;
-        this.totalCost = totalCost;
+        this.rentCost = rentCost;
+        type = type.substring(type.lastIndexOf('.') + 1);
     }
 
     public String getName() {
         return name;
-    }
-
-    public boolean isInUse() {
-        return inUse;
-    }
-
-    public void setInUse(boolean inUse) {
-        this.inUse = inUse;
     }
 
     public int getPower() {
@@ -53,12 +48,20 @@ public class ElectricityItem implements Comparable<ElectricityItem> {
         this.name = name;
     }
 
-    public double getTotalCost() {
-        return totalCost;
+    public double getRentCost() {
+        return rentCost;
     }
 
-    public void setTotalCost(double totalCost) {
-        this.totalCost = totalCost;
+    public void setRentCost(double totalCost) {
+        this.rentCost = totalCost;
+    }
+
+    public String getUsedBy() {
+        return usedBy;
+    }
+
+    public void setUsedBy(String usedBy) {
+        this.usedBy = usedBy;
     }
 
     @Override

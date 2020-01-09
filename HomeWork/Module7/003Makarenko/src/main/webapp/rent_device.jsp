@@ -2,18 +2,17 @@
   Created by IntelliJ IDEA.
   User: makar
   Date: 09.01.2020
-  Time: 15:40
+  Time: 17:50
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>Add money</title>
+    <title>rent device</title>
 </head>
 <body>
-    <form method="post" action="controller?action=add_money">
-        <p><input type="text" name="add" value="Add" size="10"/></p>
-        <p><input type="submit" name="Add"/></p>
-    </form>
+    <b>Are you sure you want to rent this device?</b>
+    <p>Device: </p>
 </body>
 </html>

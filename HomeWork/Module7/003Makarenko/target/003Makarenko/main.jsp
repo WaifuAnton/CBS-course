@@ -18,6 +18,7 @@
             <p>${sessionScope.user.balance}</p>
             <p><a href="add_money.jsp">Add money</a></p>
             <p><a href="controller?action=logout">Logout</a></p>
+            <p>Available devices</p>
             <table border="1">
                 <tr>
                     <td>Type</td>
@@ -25,21 +26,20 @@
                     <td>Total cost</td>
                 </tr>
                 <jstl:forEach items="${requestScope.items}" var="item">
-                    <jstl:if test="${item.inUse == false}">
+                    <jstl:if test="${item.usedBy == 'none'}">
                         <tr>
                             <td>${item.type}</td>
                             <td>${item.name}</td>
-                            <td>${item.totalCost}</td>
                         </tr>
                     </jstl:if>
                 </jstl:forEach>
             </table>
+            <p><a href="rent_device.jsp">Buy device</a></p>
         </jstl:when>
         <jstl:otherwise>
             <p><a href="register.jsp">Register</a></p>
             <p><a href="login.jsp">Login</a></p>
         </jstl:otherwise>
     </jstl:choose>
-    <p>Choose your device</p>
 </body>
 </html>
