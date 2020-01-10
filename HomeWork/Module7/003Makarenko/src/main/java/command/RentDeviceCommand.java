@@ -17,6 +17,10 @@ public class RentDeviceCommand implements Command {
         double rentCost = Double.parseDouble(req.getParameter("device_price"));
         double balance = user.getBalance();
 
+        req.setAttribute("device_type", type);
+        req.setAttribute("device_name", name);
+        req.setAttribute("device_price", rentCost);
+
         if (balance >= rentCost) {
             user.setBalance(balance - rentCost);
             switch (type) {

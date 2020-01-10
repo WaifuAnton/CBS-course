@@ -7,7 +7,7 @@ import javax.persistence.*;
 public class ElectricityItem implements Comparable<ElectricityItem> {
     @Id
     @GeneratedValue(strategy = GenerationType.TABLE)
-    private long id = 0;
+    private int id = 0;
     private int power = 0;
     protected String name = "unknown";
     private double rentCost = 0;
@@ -36,7 +36,7 @@ public class ElectricityItem implements Comparable<ElectricityItem> {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 

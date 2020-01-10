@@ -15,6 +15,7 @@
     <jstl:choose>
         <jstl:when test="${not empty sessionScope.user}">
             <p>${sessionScope.user.login}</p>
+            <p><a href="my_devices.jsp">My devices</a></p>
             <p>${sessionScope.user.balance}</p>
             <p><a href="add_money.jsp">Add money</a></p>
             <p><a href="controller?action=logout">Logout</a></p>
@@ -26,15 +27,25 @@
                     <td>Total cost</td>
                 </tr>
                 <jstl:forEach items="${requestScope.items}" var="item">
+                    <jstl:if test="${not empty requestScope.notEnoughMoney}">You don't have enough money</jstl:if>
                     <jstl:if test="${item.usedBy == 'none'}">
                         <tr>
                             <td>${item.type}</td>
                             <td>${item.name}</td>
+                            <td>${item.rentCost}</td>
+                            <td>
+                                <form method="post" action="controller?action=rent_device">
+                                    <input type="hidden" name="device_id" value="${item.id}"/>
+                                    <input type="hidden" name="device_type" value="${item.type}"/>
+                                    <input type="hidden" name="device_name" value="${item.name}"/>
+                                    <input type="hidden" name="device_price" value="${item.rentCost}"/>
+                                    <input type="submit" value="Rent"/>
+                                </form>
+                            </td>
                         </tr>
                     </jstl:if>
                 </jstl:forEach>
             </table>
-            <p><a href="rent_device.jsp">Buy device</a></p>
         </jstl:when>
         <jstl:otherwise>
             <p><a href="register.jsp">Register</a></p>
