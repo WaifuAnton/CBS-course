@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 public class RentDeviceCommand implements Command {
     @Override
     public String execute(HttpServletRequest req) {
-        User user = (User) req.getAttribute("user");
+        User user = (User) req.getSession().getAttribute("user");
 
         int id = Integer.parseInt(req.getParameter("device_id"));
         String type = req.getParameter("device_type");
@@ -19,7 +19,6 @@ public class RentDeviceCommand implements Command {
 
         if (balance >= rentCost) {
             user.setBalance(balance - rentCost);
-            
             switch (type) {
                 case "Conditioner":
                     ConditionerHelper conditionerHelper = new ConditionerHelper();
@@ -49,6 +48,8 @@ public class RentDeviceCommand implements Command {
                     helper.update(id, item);
             }
         }
+        else
+            req.setAttribute("notEnoughMoney", "User doesn't have enough money");
         return "controller?action=main";
     }
 }

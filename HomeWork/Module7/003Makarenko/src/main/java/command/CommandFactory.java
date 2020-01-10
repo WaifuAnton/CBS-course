@@ -17,7 +17,9 @@ public class CommandFactory {
         commands.put("main", new MainCommand());
         commands.put("logout", new LogoutCommand());
         commands.put("add_money", new AddMoneyCommand());
-        commands.put("buy_device", new RentDeviceCommand());
+        commands.put("rent_device", new RentDeviceCommand());
+        commands.put("return_device", new ReturnDeviceCommand());
+        commands.put("my_devices", new MyDevicesCommand());
     }
 
     public static CommandFactory getInstance() {

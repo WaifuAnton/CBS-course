@@ -15,6 +15,7 @@
     <jstl:choose>
         <jstl:when test="${not empty sessionScope.user}">
             <p>${sessionScope.user.login}</p>
+            <p><a href="my_devices.jsp">My devices</a></p>
             <p>${sessionScope.user.balance}</p>
             <p><a href="add_money.jsp">Add money</a></p>
             <p><a href="controller?action=logout">Logout</a></p>
@@ -26,6 +27,7 @@
                     <td>Total cost</td>
                 </tr>
                 <jstl:forEach items="${requestScope.items}" var="item">
+                    <jstl:when test="${not empty requestScope.notEnoughMoney}">You don't have enough money</jstl:when>
                     <jstl:if test="${item.usedBy == 'none'}">
                         <tr>
                             <td>${item.type}</td>
