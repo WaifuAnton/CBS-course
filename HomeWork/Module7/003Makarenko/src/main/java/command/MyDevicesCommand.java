@@ -53,7 +53,7 @@ public class MyDevicesCommand implements Command {
         allMyItems.addAll(myKettles);
         allMyItems.addAll(myWashingMachines);
         
-        req.setAttribute("allItems", allMyItems);
+        req.setAttribute("allMyItems", allMyItems);
         return "my_devices.jsp";
     }
 }

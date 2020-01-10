@@ -10,6 +10,7 @@ public class RentDeviceCommand implements Command {
     @Override
     public String execute(HttpServletRequest req) {
         User user = (User) req.getSession().getAttribute("user");
+        UserHelper userHelper = new UserHelper();
 
         int id = Integer.parseInt(req.getParameter("device_id"));
         String type = req.getParameter("device_type");
@@ -23,6 +24,8 @@ public class RentDeviceCommand implements Command {
 
         if (balance >= rentCost) {
             user.setBalance(balance - rentCost);
+            userHelper.update(user.getId(), user);
+            
             switch (type) {
                 case "Conditioner":
                     ConditionerHelper conditionerHelper = new ConditionerHelper();
