@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1117c89c-6f0c-44a4-93b3-9332da3f6871" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/004Makarenko.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animal/AnimalRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/Module5/002Makarenko/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HomeWork/Module5/002Makarenko/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/004Makarenko/001_JOINS.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/004Makarenko/002_UNION.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/004Makarenko/003_CerateShopDB.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/004Makarenko/004_JOINS_Practice.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module5/003Makarenko/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module5/003Makarenko/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module5/003Makarenko/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module5/003Makarenko/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module5/003Makarenko/003Makarenko.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module5/003Makarenko/003Makarenko.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module5/003Makarenko/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module5/003Makarenko/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module5/003Makarenko/src/main/java/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module5/003Makarenko/src/main/java/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module5/003Makarenko/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module5/003Makarenko/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module5/003Makarenko/target/classes/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Module5/003Makarenko/target/classes/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module5/003Makarenko/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Module5/003Makarenko/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module5/test_db.sql" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="nature@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="nature@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="nature@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="nature: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1TtNdeMLbEDwyeellVPV2Gfo9kI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-8.0.18.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="004Makarenko" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1117c89c-6f0c-44a4-93b3-9332da3f6871" name="Default Changelist" comment="" />
+      <created>1574275521212</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574275521212</updated>
+      <workItem from="1574275525440" duration="4450000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

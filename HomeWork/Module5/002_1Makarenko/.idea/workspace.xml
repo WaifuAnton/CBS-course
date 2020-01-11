@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84c5441c-6de0-4b28-912a-9470cf06a34e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Module6/004Makarenko/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004Makarenko/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004Makarenko/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004Makarenko/004Makarenko.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004Makarenko/src/task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004Makarenko/src/task2/entity/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/.idea/artifacts/web_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/.idea/scopes/scope_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/004_1Makarenko.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/src/TaskServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/src/task3/dao/CarDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/src/task3/dao/CarJDBCDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/src/task3/dao/ClientDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/src/task3/dao/ClientJDBCDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/src/task3/dao/DAOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/src/task3/dao/IDAOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/src/task3/entitiy/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_1Makarenko/src/task3/entitiy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_2Makarenko/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_2Makarenko/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_2Makarenko/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_2Makarenko/004_2Makarenko.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_2Makarenko/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_2Makarenko/src/entitiy/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6/004_2Makarenko/src/entitiy/Client.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="carsshop@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="carsshop@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="carsshop@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="carsshop: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1TcORy952BUwktFjnaGlnvSu9L2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/mysql-connector-java-5.1.45-bin.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\makar\Desktop\Прога\Попочка\Java\CBS course\HomeWork\Module5\002_1Makarenko\src\dao" />
+      <recent name="C:\Users\makar\Desktop\Прога\Попочка\Java\CBS course\HomeWork\Module5\002_1Makarenko\src\entities" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="002_1Makarenko" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84c5441c-6de0-4b28-912a-9470cf06a34e" name="Default Changelist" comment="" />
+      <created>1573755912248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573755912248</updated>
+      <workItem from="1573755916106" duration="8210000" />
+      <workItem from="1573902632692" duration="147000" />
+      <workItem from="1573920274730" duration="694000" />
+      <workItem from="1575663564238" duration="906000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1575666485182">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1575666485182" />
+    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1575666485180">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1575666485180" />
+    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1575666485179">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1575666485179" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1575666485181">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1575666485181" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1575666485182">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1575666485182" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1575666485182">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1575666485182" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1575666485182">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1575666485182" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1575666485182">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1575666485182" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dao/ClientJDBCDao.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

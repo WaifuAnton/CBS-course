@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="002Makarenko:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4cc81f80-3960-46bd-a34f-25e3c797c4ab" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="carsshop@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="carsshop@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="carsshop@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="carsshop: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1UfCbIWItfLrggPnQNhiUKGQZxV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\makar\Desktop\Прога\Попочка\Java\CBS course\PHomeWork\Module7\002Makarenko\src\entity" />
+      <recent name="C:\Users\makar\Desktop\Прога\Попочка\Java\CBS course\PHomeWork\Module7\002Makarenko\src" />
+      <recent name="C:\Users\makar\Desktop\Прога\Попочка\Java\CBS course\PHomeWork\Module7\002Makarenko\web" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.29" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.29" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="002Makarenko:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/002Makarenko_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_29_002Makarenko" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="16446" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="002Makarenko:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:carsshop@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:carsshop@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@4b975f13" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:carsshop@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@b24d40f" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4cc81f80-3960-46bd-a34f-25e3c797c4ab" name="Default Changelist" comment="" />
+      <created>1575738332437</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575738332437</updated>
+      <workItem from="1575738341404" duration="7284000" />
+      <workItem from="1575745880079" duration="487000" />
+      <workItem from="1575757380123" duration="3610000" />
+      <workItem from="1576358459511" duration="1512000" />
+      <workItem from="1576531656920" duration="989000" />
+      <workItem from="1576533712539" duration="609000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="371" y="95" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1575740985236">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="95" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1575740985236" />
+    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575740244073">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1575740244073" />
+    <state x="446" y="24" key="#com.intellij.ide.util.MemberChooser" timestamp="1575739626458">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="24" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1575739626458" />
+    <state x="348" y="81" key="FileChooserDialogImpl" timestamp="1575742456003">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="348" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1575742456003" />
+    <state width="845" height="163" key="GridCell.Tab.0.bottom" timestamp="1576533712927">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1576533712927" />
+    <state width="845" height="163" key="GridCell.Tab.0.center" timestamp="1576533712927">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1576533712927" />
+    <state width="845" height="163" key="GridCell.Tab.0.left" timestamp="1576533712926">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1576533712926" />
+    <state width="845" height="163" key="GridCell.Tab.0.right" timestamp="1576533712927">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1576533712927" />
+    <state width="845" height="163" key="GridCell.Tab.1.bottom" timestamp="1575760994398">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1575760994398" />
+    <state width="845" height="163" key="GridCell.Tab.1.center" timestamp="1575760994398">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1575760994398" />
+    <state width="845" height="163" key="GridCell.Tab.1.left" timestamp="1575760994398">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1575760994398" />
+    <state width="845" height="163" key="GridCell.Tab.1.right" timestamp="1575760994398">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1575760994398" />
+    <state width="845" height="163" key="GridCell.Tab.2.bottom" timestamp="1575760994399">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1575760994399" />
+    <state width="845" height="163" key="GridCell.Tab.2.center" timestamp="1575760994399">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1575760994399" />
+    <state width="845" height="163" key="GridCell.Tab.2.left" timestamp="1575760994398">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1575760994398" />
+    <state width="845" height="163" key="GridCell.Tab.2.right" timestamp="1575760994399">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1575760994399" />
+    <state width="845" height="163" key="GridCell.Tab.3.bottom" timestamp="1575760994399">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1575760994399" />
+    <state width="845" height="163" key="GridCell.Tab.3.center" timestamp="1575760994399">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1575760994399" />
+    <state width="845" height="163" key="GridCell.Tab.3.left" timestamp="1575760994399">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1575760994399" />
+    <state width="845" height="163" key="GridCell.Tab.3.right" timestamp="1575760994399">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1575760994399" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1575742469347">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1575742469347" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1575758726251">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1575758726251" />
+  </component>
+</project>

@@ -1,0 +1,5 @@
+<root>
+    <candy hasSugar = "yes">
+        <name>Lolipop</name>
+    </candy>
+</root>

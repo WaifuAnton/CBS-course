@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b291ab6f-8baa-4001-8841-4e51c80772ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Module7/006Makarenko/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7/006Makarenko/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7/006Makarenko/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7/006Makarenko/006Makarenko.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7/006Makarenko/src/main/java/task2/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7/006Makarenko/src/main/java/task2/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7/006Makarenko/src/main/java/task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7/006Makarenko/src/main/resources/context2.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="003Makarenko" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1ULYQjgnfC6gutHw8mP93CW1F0o" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Module7/003Makarenko" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="xslt.associations" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\makar\Desktop\Прога\Попочка\Java\CBS course\HomeWork\Module6\003Makarenko\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="XSLT.devices.xsl">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="003Makarenko" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="devices.xsl" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" value="" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" value="" />
+      <option name="myWorkingDirectory" value="" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <XsltFile url="file://$PROJECT_DIR$/src/devices.xsl" />
+      <XmlFile url="file://$PROJECT_DIR$/src/devices.xml" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="HTML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b291ab6f-8baa-4001-8841-4e51c80772ad" name="Default Changelist" comment="" />
+      <created>1575137328036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575137328036</updated>
+      <workItem from="1575137331317" duration="3442000" />
+      <workItem from="1577918976424" duration="51000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1577919025007">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1577919025007" />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="003Makarenko" type="b2602c69:ProjectViewProjectNode" />
+        <item name="003Makarenko" type="462c0819:PsiDirectoryNode" />
+      </path>
+      <path>
+        <item name="003Makarenko" type="b2602c69:ProjectViewProjectNode" />
+        <item name="003Makarenko" type="462c0819:PsiDirectoryNode" />
+        <item name="src" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<devices>
+    <device>
+        <name>hhh</name>
+        <origin>as</origin>
+        <price>sdsd</price>
+        <type peripheral="true" consumes="12" has_cooler="false" group ="io" ports="usb">ssad</type>
+    </device>
+        <name>hhh</name>
+        <origin>as</origin>
+        <price>sdsd</price>
+        <type peripheral="true" consumes="12" has_cooler="false" group ="io" ports="usb">ssad</type>
+    <device>
+
+    </device>
+</devices>

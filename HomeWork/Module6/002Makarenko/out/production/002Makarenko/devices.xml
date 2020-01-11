@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><devices>
+    <device>
+        <name>screen</name>
+        <origin>China</origin>
+        <price>299.99</price>
+        <type group="io" has_cooler="false" ports="usb, hdmi, vga" power="12">peripheral</type>
+    </device>
+    <device>
+        <name>keyboard</name>
+        <origin>Taiwan</origin>
+        <price>59.90</price>
+        <type group="io" has_cooler="false" ports="usb" power="3">peripheral</type>
+    </device>
+</devices>

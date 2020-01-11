@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="antlr-2.7.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/hibernate/antlr-2.7.6.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/hibernate/c3p0-0.9.1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/hibernate/cglib-nodep-2.1_3.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/hibernate/commons-collections-2.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/hibernate/commons-logging-1.0.4.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/hibernate/dom4j-1.6.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/hibernate/ejb3-persistence.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/hibernate/hibernate-annotations.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/hibernate/hibernate-commons-annotations.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/hibernate/hibernate-entitymanager.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/hibernate/hibernate-validator.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/hibernate/hibernate3.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/hibernate/javassist.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/hibernate/jboss-archive-browsing.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/hibernate/jta.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/hibernate/log4j-1.2.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
