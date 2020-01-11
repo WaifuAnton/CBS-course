@@ -25,7 +25,7 @@ public class RentDeviceCommand implements Command {
         if (balance >= rentCost) {
             user.setBalance(balance - rentCost);
             userHelper.update(user.getId(), user);
-            
+
             switch (type) {
                 case "Conditioner":
                     ConditionerHelper conditionerHelper = new ConditionerHelper();
