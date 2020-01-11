@@ -16,7 +16,7 @@
     <p>This user does not exist</p>
 </jstl:if>
 <jstl:if test="${not empty requestScope.wrongPassword}">
-    <p>Wrong user's password</p>
+    <p>Wrong password</p>
 </jstl:if>
 <form method="post" action="controller?action=login">
     <p><input type="text" name="login" size="10"/></p>

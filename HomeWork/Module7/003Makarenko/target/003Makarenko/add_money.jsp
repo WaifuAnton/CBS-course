@@ -12,8 +12,8 @@
 </head>
 <body>
     <form method="post" action="controller?action=add_money">
-        <p><input type="text" name="add" value="Add" size="10"/></p>
-        <p><input type="submit" name="Add"/></p>
+        <p><input type="text" name="add" value="0.0" size="10"/></p>
+        <p><input type="submit" value="Add"/></p>
     </form>
 </body>
 </html>
