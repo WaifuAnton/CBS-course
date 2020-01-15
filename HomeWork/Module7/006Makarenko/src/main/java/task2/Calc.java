@@ -7,7 +7,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.stereotype.Component;
 
 @Component
-public final class Calc {
+public class Calc {
     public int div(int left, int right) {
         return left / right;
     }

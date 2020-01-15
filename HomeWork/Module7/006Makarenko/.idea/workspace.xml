@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a50bcac-ee2b-4277-8dc0-71fa472529f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/006Makarenko.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task2/Calc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task2/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/context2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003Makarenko/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../003Makarenko/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task2/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task2/Calc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/context2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/context2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +83,7 @@
       <workItem from="1576760276158" duration="5207000" />
       <workItem from="1576945194554" duration="2725000" />
       <workItem from="1576948919243" duration="4329000" />
+      <workItem from="1578934978663" duration="1318000" />
     </task>
     <servers />
   </component>
@@ -97,22 +94,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1576962562072">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1578938410971">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1576962562072" />
-    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1576962562072">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1578938410971" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1578938435359">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1576962562072" />
-    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1576962562072">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578938435359" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1578938435359">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1576962562072" />
-    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1576962562072">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578938435359" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1578938435359">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1576962562072" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578938435359" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1578938435359">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578938435359" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1576962562073">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -133,5 +134,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1576773724172" />
+    <state x="91" y="0" key="new project wizard" timestamp="1578938429582">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1578938429582" />
   </component>
 </project>
